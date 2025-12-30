@@ -1,0 +1,74 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Beginner Guitar Lessons",
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "price": 20,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Acoustic guitar classes for complete beginners.",
+    "image": "https://i.ibb.co.com/mC6Sj8P/guitar.jpg",
+    "category": "Music"
+  },
+  {
+    "skillId": 2,
+    "skillName": "Spoken English Practice",
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "price": 10,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Conversational English sessions for non-native speakers.",
+    "image": "https://i.ibb.co.com/vH3PzYm/english.jpg",
+    "category": "Language"
+  },
+  {
+    "skillId": 3,
+    "skillName": "Web Development Mastery",
+    "providerName": "Rahat Karim",
+    "providerEmail": "rahat@skillswap.com",
+    "price": 50,
+    "rating": 4.9,
+    "slotsAvailable": 10,
+    "description": "Learn Full Stack Web Development with MERN stack.",
+    "image": "https://i.ibb.co.com/fMvXn7K/web-dev.jpg",
+    "category": "Technology"
+  },
+  {
+    "skillId": 4,
+    "skillName": "Graphic Design Fundamentals",
+    "providerName": "Anika Tabassum",
+    "providerEmail": "anika@skillswap.com",
+    "price": 30,
+    "rating": 4.7,
+    "slotsAvailable": 4,
+    "description": "Master Adobe Photoshop and Illustrator for branding.",
+    "image": "https://i.ibb.co.com/Lz0D7sR/design.jpg",
+    "category": "Design"
+  },
+  {
+    "skillId": 5,
+    "skillName": "Digital Marketing Strategy",
+    "providerName": "Tanvir Ahmed",
+    "providerEmail": "tanvir@skillswap.com",
+    "price": 25,
+    "rating": 4.5,
+    "slotsAvailable": 8,
+    "description": "Strategies for SEO, SMM, and Google Ads management.",
+    "image": "https://i.ibb.co.com/S6x9Z6g/marketing.jpg",
+    "category": "Business"
+  },
+  {
+    "skillId": 6,
+    "skillName": "Basic Photography Workshop",
+    "providerName": "Zayan Malik",
+    "providerEmail": "zayan@skillswap.com",
+    "price": 15,
+    "rating": 4.4,
+    "slotsAvailable": 6,
+    "description": "Learn lighting, composition, and DSLR basics.",
+    "image": "https://i.ibb.co.com/Y7x9K3P/photography.jpg",
+    "category": "Photography"
+  }
+]
