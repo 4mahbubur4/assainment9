@@ -4,6 +4,10 @@ import AuthLayout from "../layout/AuthLayout";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Home from "../pages/Home";
+import CoursesDetails from "../pages/CourseDetails";
+import PrivateRoute from "../provider/PrivateRoute";
+import MyProfile from "../pages/MyProfile";
+import Loading from "../pages/Loading";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +18,12 @@ const router = createBrowserRouter([
         path: "",
         element: <Home></Home>,
       },
+      {
+        path:'/profile',
+        element:<PrivateRoute>
+          <MyProfile></MyProfile>
+        </PrivateRoute>
+      }
     ],
   },
   {
@@ -31,8 +41,12 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/news",
-    element: <h2>News</h2>,
+    path: "/skills/:id",
+    element: <PrivateRoute>
+      <CoursesDetails></CoursesDetails>
+    </PrivateRoute>,
+    loader: ()=>fetch("/learn.json"),
+    hydrateFallbackElement: <Loading></Loading>
   },
   {
     path: "/*",

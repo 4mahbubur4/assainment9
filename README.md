@@ -1,16 +1,19 @@
-# React + Vite
+# Project Name : Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Purpose
+This is a web-based educational platform where users can register, log in, and access various learning resources. The project uses **Firebase Authentication** for user management and aims to provide a smooth, interactive learning experience.
 
-Currently, two official plugins are available:
+## Live Url : https://dancing-fenglisu-c8a80d.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- User registration and login using Firebase Authentication
+- Responsive design for both desktop and mobile devices
+-Organized layout for courses and learning resources
 
-## React Compiler
+## NPM Packages Used
+- **firebase** – For authentication and backend integration  
+- **react-router-dom** – For routing and navigation  
+- **react-hot-toast** – For notifications and alerts   
+- **swiper** – For creating responsive sliders and carousels 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Private Repository access korte pari ni tai public  Repository te project korcii
